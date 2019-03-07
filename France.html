@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<title>France</title>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: #0d0d0d;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+<div class="header">
+  <h1>France</h1>
+  <p>My two months in France.</p>
+</div>
+    
+
+<div class="topnav">
+  <a href="MyInterests.html">My Interests</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <h2><font color="white">What I did </font></h2>
+      
+       <p class="post-subtitle">
+	<div style="float: right;"><a href="https://www.diverbo.com/"><IMG src="WEFRance3.jpg" style="width:200px;height:140px;"></a></div><font color="white">
+	When I was 16 I spent two months in the small town of Chevreuse just
+        30 mins south of Paris.I stayed with a french family and during my stay I got the opportunity to attend
+        secondary school, gain work experience in a local primary school and bakery and also 'au-pair' for a
+        period of time. I attended the secondary school Lycee De La Valle De Chevreuse to continue my
+        learning and to meet friends my age which I am still in contact with to this day.
+       </font></p>
+
+    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr>
+    <div class="card">
+        <h2><font color="white">Why?</font> </h2>
+     <p><font color="white">I enjoy stepping outside my comfort zone and this experience was definitly difficult but also
+        very rewarding. As I was only 16 at the time I was in way near being fluent in the language but with hard
+        work I improved slowly over the two months. I've always loved travelling and traveling solo was also
+        rewarding, I've become more aware and capabale of finding solutions fast.
+         </font></p> 
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+        <h2><font color="white">Photos of me in France</font></h2>
+      
+      <div class="fakeimg" style="height:100px;"></div>
+      <IMG src="France1.jpg" style="width:425px;height:225px;">
+    </div>
+      
+    <div class="card">
+        <IMG src="WEFrance2.jpg" style="width:425px;height:260px;">
+         </div>
+      
+      <div class="card">
+        <IMG src="WEFrance.jpg" style="width:425px;height:320px;">
+         </div> 
+  </div>
+</div>
+</body>
+</html>
